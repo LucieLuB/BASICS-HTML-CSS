@@ -1,0 +1,26 @@
+/*RESET BASICO*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+}
+
+/* Ejemplo de BEM en CSS */
+.card { font-size: 1rem; }
+.card--primary { font-size: 1rem;}
+.card__header {font-size: 1rem; }
+.card__title {font-size: 1rem; }
+.card__body { font-size: 1rem;}
+.card__text { font-size: 1rem;}
+

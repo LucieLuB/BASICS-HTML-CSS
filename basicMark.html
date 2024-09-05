@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" /> <!--SPECIFY CHARACTER CODIFICATION-->
+    <meta name="viewport"content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <!-- Ensures the webpage is responsive by setting the viewport width to match the device’s screen width, 
+    and scales the content initially at 100% (1.0) of its size. Important for making websites mobile-friendly. -->
+    <title>Test Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" /> <!--GOOGLE FONTS-->
+    <link rel="stylesheet" href="styles.css" /> <!-- Link to external CSS file -->
+  </head>
+
+  <body>
+    <header role="banner" aria-label="Main site header"> <!--ARIA BEST PRACTICES-->
+      <h1>Basic HTML Structure</h1>
+    </header>
+
+    <main role="main">
+      <section aria-labelledby="section-title">
+        <h2>Section Title</h2>
+        <p>This is a simple paragraph inside a section.</p>
+      </section>
+    </main>
+
+    <footer role="contentinfo" aria-label="Footer section">
+      <p>© 2024 Your Name</p>
+    </footer>
+  </body>
+</html>
