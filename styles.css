@@ -24,3 +24,11 @@ html {
 .card__body { font-size: 1rem;}
 .card__text { font-size: 1rem;}
 
+/*CENTER CONTAINER*/
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center; /*flex-start para no tener todo el ancho de los elementos*/
+    
+    height: 100vh;
+  }
