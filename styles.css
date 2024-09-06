@@ -24,6 +24,12 @@ html {
 .card__body { font-size: 1rem;}
 .card__text { font-size: 1rem;}
 
+/*IMPORT FONTS*/
+@font-face {
+    font-family: Figtree;
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+  }
+
 /*CENTER CONTAINER*/
   body {
     display: flex;
