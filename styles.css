@@ -32,3 +32,14 @@ html {
     
     height: 100vh;
   }
+
+  /*VARIABLE*/
+
+  :root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+  }
+
+  h1 {
+    color: var(--secondary-color);
+}
