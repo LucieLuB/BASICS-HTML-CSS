@@ -20,5 +20,5 @@
 --> evita sobrecargarlas
 
 ## BUTTON VS LINK:
-Usa botón para acciones dentro de la página o la aplicación.
-Usa enlace para navegación entre páginas o recursos.
+- Usa botón para acciones dentro de la página o la aplicación.
+- Usa enlace para navegación entre páginas o recursos.
